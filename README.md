@@ -5,7 +5,7 @@ This repo hosts shared Maven resources useful for configuring builds in a common
 maven-checkstyle-plugin
 =======================
 This directory hosts a shared [Maven Checkstyle Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/index.html)
-configuration, [imanage_checks.xml](imanage_checks.xml). This configuration is
+configuration, [imanage_checks.xml](maven-checkstyle-plugin/imanage_checks.xml). This configuration is
 publicly accessible via the following URL, which can be used as the value of
 [configLocation](https://maven.apache.org/plugins/maven-checkstyle-plugin/check-mojo.html#configLocation),
 or as the URL of a configuration file in the IntelliJ checkstyle plugin.
@@ -13,7 +13,7 @@ or as the URL of a configuration file in the IntelliJ checkstyle plugin.
     https://raw.githubusercontent.com/iManageDave/maven-resources/master/maven-checkstyle-plugin/imanage_checks.xml
 
 Also, a shared [suppressions filter](https://maven.apache.org/plugins/maven-checkstyle-plugin/examples/suppressions-filter.html),
-[checkstyle-suppressions.xml](checkstyle-suppressions.xml), is available for
+[checkstyle-suppressions.xml](maven-checkstyle-plugin/checkstyle-suppressions.xml), is available for
 excluding Dagger generated sources. The more desirable [&lt;excludes&gt;](https://maven.apache.org/plugins/maven-checkstyle-plugin/check-mojo.html#excludes)
 did not work despite hours of trying.
 
@@ -63,7 +63,7 @@ versions-maven-plugin
 =====================
 This directory hosts a shared [Versions Maven Plugin](http://www.mojohaus.org/versions-maven-plugin/index.html)
 [rule set](https://www.mojohaus.org/versions-maven-plugin/version-rules.html),
-[rules.xml](rules.xml).  This rule set is publicly accessible via the following
+[rules.xml](versions-maven-plugin/rules.xml).  This rule set is publicly accessible via the following
 URL.
 
     https://raw.githubusercontent.com/iManageDave/maven-resources/master/versions-maven-plugin/rules.xml
