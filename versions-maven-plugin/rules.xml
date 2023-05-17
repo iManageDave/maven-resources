@@ -8,6 +8,7 @@
   <ignoreVersions>
     <ignoreVersion type="regex">\d+\.\d+(?:\.\d+)?[-\.](?:(?i)alpha).*</ignoreVersion>
     <ignoreVersion type="regex">\d+\.\d+(?:\.\d+)?[-\.](?:(?i)beta).*</ignoreVersion>
+    <ignoreVersion type="regex">\d+\.\d+(?:\.\d+)?[-\.](?:(?i)m).*</ignoreVersion>
     <ignoreVersion type="regex">\d+\.\d+(?:\.\d+)?[-\.](?:(?i)rc).*</ignoreVersion>
   </ignoreVersions>
 </ruleset>
